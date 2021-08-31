@@ -23,7 +23,7 @@ header {
   width: 100%;
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 131, 252, 0.9)), to(rgba(185, 112, 253, 0.9)));
   background-image: linear-gradient(to right bottom, rgba(104, 131, 252, 0.9), rgba(185, 112, 253, 0.9));
-  height: 95vh;
+  height: 100vh;
 }
 
 .nav__color {
@@ -54,7 +54,7 @@ header {
 }
 
 .nav__ul--li--a {
-  padding: 0rem 2rem;
+  padding: 0rem 2rem 1rem 2rem;
   text-decoration: none;
   font-size: 2rem;
   text-transform: uppercase;
@@ -63,7 +63,7 @@ header {
 
 .nav__ul--li--a:hover {
   color: black;
-  margin-bottom: 1px solid #5fbafc;
+  border-bottom: 3px solid #5fbafc;
 }
 
 .div__hero {
@@ -93,10 +93,11 @@ header {
   color: wheat;
   line-height: 2.5rem;
   width: 114%;
+  font-size: 1.5rem;
 }
 
 .div__hero--button {
-  width: 25vh;
+  width: 30vh;
   height: 7vh;
   border-radius: 100px;
   outline: none;
@@ -115,6 +116,140 @@ header {
 }
 
 .div__hero1--left {
-  margin-left: 200px;
+  margin-left: 100px;
+}
+
+.ami {
+  text-align: center;
+}
+
+.section__part--one {
+  width: 100%;
+  height: 60vh;
+  margin-top: 15rem;
+}
+
+.section__part--one h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 15rem;
+  color: #7b10ff;
+}
+
+.feture__one {
+  width: 33%;
+  float: left;
+  height: 40rem;
+  text-align: center;
+}
+
+.feture__one img {
+  margin-bottom: 3rem;
+}
+
+.feture__one p {
+  color: #50668f;
+  font-size: 1.5rem;
+}
+
+.feture__one h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.feture__tow {
+  width: 33%;
+  float: left;
+  height: 40rem;
+  text-align: center;
+}
+
+.feture__tow img {
+  margin-bottom: 3rem;
+}
+
+.feture__tow p {
+  color: #50668f;
+  font-size: 1.5rem;
+}
+
+.feture__tow h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.feture__three {
+  width: 33%;
+  float: left;
+  height: 40rem;
+  text-align: center;
+}
+
+.feture__three img {
+  margin-bottom: 3rem;
+}
+
+.feture__three p {
+  color: #50668f;
+  font-size: 1.5rem;
+}
+
+.feture__three h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section__part--tow {
+  width: 100%;
+  height: 60vh;
+}
+
+.brand {
+  margin-bottom: 10rem;
+}
+
+.brand__left {
+  width: 45%;
+  float: left;
+  padding-left: 5rem;
+}
+
+.brand__left h1 {
+  font-size: 4rem;
+  color: #1e283c;
+  font-weight: 500;
+}
+
+.brand__left p {
+  font-size: 1.5rem;
+  color: #50668f;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-right: 8rem;
+}
+
+.brand__left button {
+  border: none;
+  padding: 2rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.brand__left button:hover {
+  background-color: #7b10ff;
+  border-radius: 3px;
+  color: white;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+
+.brand__right {
+  float: left;
+  width: 55%;
+}
+
+.brand__right img {
+  height: 70vh;
 }
 /*# sourceMappingURL=style.css.map */

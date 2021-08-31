@@ -30,7 +30,7 @@ body{
 header{
     width: 100%;
     background-image: linear-gradient(to right bottom ,rgba($color-primary,.9),rgba($color-primary-light,.9));
-    height: 95vh;
+    height: 100vh;
     // position: relative;
     
 }
@@ -73,7 +73,7 @@ header{
 
 
             &--a{
-                padding: 0rem 2rem;
+                padding: 0rem 2rem 1rem 2rem;
                 text-decoration: none;
                 font-size: 2rem;
                 text-transform: uppercase;
@@ -81,7 +81,7 @@ header{
 
                 &:hover{
                     color: black;
-                    margin-bottom: 1px solid #5fbafc ;
+                    border-bottom: 3px solid #5fbafc ;
                 }
             }
         }
@@ -105,6 +105,9 @@ header{
     }
     &--right{
         float: right;
+        & img{
+            // height: 10vh;
+        }
     }
 
     &--primary{
@@ -118,9 +121,10 @@ header{
            color: wheat;
            line-height: 2.5rem;
            width: 114%;
+           font-size: 1.5rem;
     }
     &--button{
-        width: 25vh;
+        width: 30vh;
         height: 7vh;
         border-radius: 100px;
         outline: none;
@@ -138,5 +142,129 @@ header{
     }
 }
 .div__hero1--left{
-    margin-left: 200px;
+    margin-left: 100px;
+}
+.ami{
+    text-align: center;
+}
+.section__part--one{
+    width: 100%;
+    height: 60vh;
+   
+    // background-color: black;
+    margin-top: 15rem;
+
+    & h1{
+        text-align: center;
+        font-size: 3rem;
+        text-transform: uppercase;
+        margin-bottom: 15rem;
+        color: #7b10ff;
+        
+    }
+}
+.feture{
+    &__one{
+        width: 33%;
+        float: left;
+        // padding: 3rem;
+        height: 40rem;
+        text-align: center;
+
+        & img{
+            margin-bottom: 3rem;
+        }
+        & p{
+            color: #50668f;
+            font-size: 1.5rem;
+        }
+        & h1{
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+    &__tow{
+        width: 33%;
+        float: left;
+        height: 40rem;
+        text-align: center;
+        & img{
+            margin-bottom: 3rem;
+        }
+        & p{
+            color: #50668f;
+            font-size: 1.5rem;
+        }
+        & h1{
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+    &__three{
+        width: 33%;
+        float: left;
+        height: 40rem;
+        text-align: center;
+        & img{
+            margin-bottom: 3rem;
+        }
+        & p{
+            color: #50668f;
+            font-size: 1.5rem;
+        }
+        & h1{
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+       
+    }
+
+}
+.section__part--tow{
+    width: 100%;
+    height: 60vh;
+    
+}
+.brand{
+    margin-bottom: 10rem;
+    &__left{
+        width: 45%;
+        float: left;
+        padding-left: 5rem;
+
+        & h1{
+            font-size: 4rem;
+            color: #1e283c;
+            font-weight: 500;
+        }
+        & p{
+            font-size: 1.5rem;
+            color: #50668f;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            padding-right: 8rem;
+        }
+
+        button{
+            border: none;
+            // text-align: center;
+            padding: 2rem;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+
+            &:hover{
+                background-color:#7b10ff ;
+                border-radius: 3px;
+                color: white;
+                box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+            }
+        }
+    }
+    &__right{
+        float: left;
+        width: 55%;
+        & img{
+            height: 70vh;
+        }
+    }
 }
