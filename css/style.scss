@@ -1,16 +1,6 @@
 $color-primary : #6883FC;
 $color-primary-light: #B970FD;
-$color-primary-dark: #28b485;
 
-$colo-secondary-light:#ffb900;
-$colo-secondary-light2:#ff7730;
-
-$colo-tertiary-light:#2998ff;
-$colo-tertiary-light2:#5643fa;
-
-$color-grey-light-1:#f7f7f7;
-$color-grey-dark: #777;
-$color-grey-dark-2:#999;
 
 $color-dark: #000;
 $color-white: #fff;
@@ -54,7 +44,7 @@ header{
         width: 100%;
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
        
-        z-index: 500;
+       
         background-image: linear-gradient(to right bottom ,rgba($color-primary,.9),rgba($color-primary-light,.9));
         position: relative;
      }
@@ -88,6 +78,11 @@ header{
                 font-size: 2rem;
                 text-transform: uppercase;
                 color: white;
+
+                &:hover{
+                    color: black;
+                    margin-bottom: 1px solid #5fbafc ;
+                }
             }
         }
 

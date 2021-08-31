@@ -32,7 +32,6 @@ header {
   width: 100%;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
           box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-  z-index: 500;
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 131, 252, 0.9)), to(rgba(185, 112, 253, 0.9)));
   background-image: linear-gradient(to right bottom, rgba(104, 131, 252, 0.9), rgba(185, 112, 253, 0.9));
   position: relative;
@@ -60,6 +59,11 @@ header {
   font-size: 2rem;
   text-transform: uppercase;
   color: white;
+}
+
+.nav__ul--li--a:hover {
+  color: black;
+  margin-bottom: 1px solid #5fbafc;
 }
 
 .div__hero {
