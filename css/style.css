@@ -1,0 +1,116 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 131, 252, 0.9)), to(rgba(185, 112, 253, 0.9)));
+  background-image: linear-gradient(to right bottom, rgba(104, 131, 252, 0.9), rgba(185, 112, 253, 0.9));
+  height: 95vh;
+}
+
+.nav__color {
+  padding: 2rem;
+  height: 14vh;
+  width: 100%;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  z-index: 500;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 131, 252, 0.9)), to(rgba(185, 112, 253, 0.9)));
+  background-image: linear-gradient(to right bottom, rgba(104, 131, 252, 0.9), rgba(185, 112, 253, 0.9));
+  position: relative;
+}
+
+.nav__img {
+  float: left;
+}
+
+.nav__ul {
+  list-style: none;
+  margin-top: .5rem;
+  left: 52%;
+  position: absolute;
+}
+
+.nav__ul--li {
+  list-style: none;
+  float: left;
+}
+
+.nav__ul--li--a {
+  padding: 0rem 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.div__hero {
+  padding: 0 4rem;
+  width: 100%;
+}
+
+.div__hero--left {
+  float: left;
+  width: 45%;
+  height: 100%;
+  padding: 10rem;
+}
+
+.div__hero--right {
+  float: right;
+}
+
+.div__hero--primary {
+  font-size: 5rem;
+  letter-spacing: 1.5rem;
+  color: white;
+  font-weight: 900;
+}
+
+.div__hero--secondary {
+  color: wheat;
+  line-height: 2.5rem;
+  width: 114%;
+}
+
+.div__hero--button {
+  width: 25vh;
+  height: 7vh;
+  border-radius: 100px;
+  outline: none;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border: none;
+}
+
+.div__hero--button:hover {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #5fbafc), to(#71e1aa));
+  background-image: linear-gradient(to right, #5fbafc 50%, #71e1aa 100%);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+
+.div__hero1--left {
+  margin-left: 200px;
+}
+/*# sourceMappingURL=style.css.map */
