@@ -129,8 +129,13 @@ header {
 .feture__one {
   width: 33%;
   float: left;
+  padding: 5rem 2rem;
   height: 40rem;
   text-align: center;
+}
+
+.feture__one:hover {
+  border: 2px solid #7b10ff;
 }
 
 .feture__one img {
@@ -152,6 +157,11 @@ header {
   float: left;
   height: 40rem;
   text-align: center;
+  padding: 5rem 2rem;
+}
+
+.feture__tow:hover {
+  border: 2px solid #7b10ff;
 }
 
 .feture__tow img {
@@ -173,6 +183,11 @@ header {
   float: left;
   height: 40rem;
   text-align: center;
+  padding: 5rem 2rem;
+}
+
+.feture__three:hover {
+  border: 2px solid #7b10ff;
 }
 
 .feture__three img {
@@ -195,7 +210,8 @@ header {
 }
 
 .brand {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
+  margin-top: 30rem;
 }
 
 .brand__left {
@@ -230,8 +246,6 @@ header {
   background-color: #7b10ff;
   border-radius: 3px;
   color: white;
-  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
 }
 
 .brand__right {
@@ -267,7 +281,8 @@ header {
 .section__part--three {
   width: 100%;
   height: 80vh;
-  margin-top: 50rem;
+  margin-top: 25rem;
+  margin-bottom: 60rem;
 }
 
 .section__part--three .after2 {
@@ -392,5 +407,198 @@ header {
 .section__part--three .Statistics__tow--part3-section2 p {
   font-size: 1.5rem;
   color: #50668f;
+}
+
+.section__part--four {
+  width: 100%;
+  height: 80vh;
+  margin-top: 25rem;
+  margin-bottom: 60rem;
+}
+
+.section__part--four .after2 {
+  margin-bottom: 15rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #7b10ff;
+  text-align: center;
+  position: relative;
+}
+
+.section__part--four .after2::before {
+  content: "";
+  width: 220px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 565px;
+  right: 10px;
+  bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.section__part--four .Statistics__one--part1 {
+  width: 100%;
+  text-align: center;
+}
+
+.section__part--four .Statistics__one--part1 h1 {
+  font-size: 3rem;
+  color: #1e283c;
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.section__part--four .Statistics__one--part1 p {
+  font-size: 1.5rem;
+  color: #50668f;
+  padding: 2rem 0rem 8rem 0rem;
+}
+
+.section__part--four .Statistics .pricing {
+  margin-top: 5rem;
+}
+
+.section__part--four .Statistics .pricing__part1 {
+  width: 33%;
+  padding-left: 15rem;
+  float: left;
+  text-align: center;
+}
+
+.section__part--four .Statistics .pricing__part1 ul {
+  list-style: none;
+}
+
+.section__part--four .Statistics .pricing__part1 h1 {
+  color: #1e283c;
+  font-size: 3rem;
+}
+
+.section__part--four .Statistics .pricing__part1 p {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.section__part--four .Statistics .pricing__part1 h2 span {
+  font-size: 4rem;
+}
+
+.section__part--four .Statistics .pricing__part1 ul li {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid gray;
+}
+
+.section__part--four .Statistics .pricing__part1 button {
+  width: 15rem;
+  height: 4rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  border: none;
+  font-size: 2rem;
+}
+
+.section__part--four .Statistics .pricing__part1 button:hover {
+  background-color: #7b10ff;
+  border-radius: 3px;
+  color: white;
+}
+
+.section__part--four .Statistics .pricing__part2 {
+  width: 33%;
+  padding-left: 15rem;
+  float: left;
+  text-align: center;
+}
+
+.section__part--four .Statistics .pricing__part2 ul {
+  list-style: none;
+}
+
+.section__part--four .Statistics .pricing__part2 h1 {
+  color: #1e283c;
+  font-size: 3rem;
+}
+
+.section__part--four .Statistics .pricing__part2 p {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.section__part--four .Statistics .pricing__part2 h2 span {
+  font-size: 4rem;
+}
+
+.section__part--four .Statistics .pricing__part2 ul li {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid gray;
+}
+
+.section__part--four .Statistics .pricing__part2 button {
+  width: 15rem;
+  height: 4rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  border: none;
+  font-size: 2rem;
+}
+
+.section__part--four .Statistics .pricing__part2 button:hover {
+  background-color: #7b10ff;
+  border-radius: 3px;
+  color: white;
+}
+
+.section__part--four .Statistics .pricing__part3 {
+  width: 33%;
+  padding-left: 10rem;
+  float: left;
+  text-align: center;
+}
+
+.section__part--four .Statistics .pricing__part3 ul {
+  list-style: none;
+}
+
+.section__part--four .Statistics .pricing__part3 h1 {
+  color: #1e283c;
+  font-size: 3rem;
+}
+
+.section__part--four .Statistics .pricing__part3 p {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.section__part--four .Statistics .pricing__part3 h2 span {
+  font-size: 4rem;
+}
+
+.section__part--four .Statistics .pricing__part3 ul li {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid gray;
+}
+
+.section__part--four .Statistics .pricing__part3 button {
+  width: 15rem;
+  height: 4rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  border: none;
+  font-size: 2rem;
+}
+
+.section__part--four .Statistics .pricing__part3 button:hover {
+  background-color: #7b10ff;
+  border-radius: 3px;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 40rem;
+  background-color: #7b10ff;
 }
 /*# sourceMappingURL=style.css.map */

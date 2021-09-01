@@ -156,6 +156,12 @@ header{
     &__one{
         width: 33%;
         float: left;
+        padding: 5rem 2rem;
+        // margin-left: 2rem;
+
+        &:hover{
+            border: 2px solid #7b10ff;
+        }
         
         height: 40rem;
         text-align: center;
@@ -177,6 +183,12 @@ header{
         float: left;
         height: 40rem;
         text-align: center;
+
+        padding: 5rem 2rem;
+
+        &:hover{
+            border: 2px solid #7b10ff;
+        }
         & img{
             margin-bottom: 3rem;
         }
@@ -194,6 +206,12 @@ header{
         float: left;
         height: 40rem;
         text-align: center;
+
+        padding: 5rem 2rem;
+
+        &:hover{
+            border: 2px solid #7b10ff;
+        }
         & img{
             margin-bottom: 3rem;
         }
@@ -212,10 +230,12 @@ header{
 .section__part--tow{
     width: 100%;
     height: 60vh;
+    // margin-top: 10rem;
     
 }
 .brand{
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
+    margin-top: 30rem;
     &__left{
         width: 45%;
         float: left;
@@ -247,7 +267,7 @@ header{
                 background-color:#7b10ff ;
                 border-radius: 3px;
                 color: white;
-                box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+                // box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
             }
         }
     }
@@ -294,7 +314,8 @@ position: relative;
 .section__part--three{
     width: 100%;
     height: 80vh;
-    margin-top: 50rem;
+    margin-top: 25rem;
+    margin-bottom: 60rem;
 
     & .after2{
         margin-bottom: 15rem;
@@ -331,7 +352,7 @@ position: relative;
     
 
     & .Statistics{
-      
+     
 
         &__one{
           
@@ -440,4 +461,209 @@ position: relative;
             }
         }
     }
+}
+
+.section__part--four{
+    width: 100%;
+    height: 80vh;
+    margin-top: 25rem;
+    margin-bottom: 60rem;
+
+    & .after2{
+        margin-bottom: 15rem;
+        font-size: 3rem;
+        text-transform: uppercase;
+        // width: max-content;
+       color: #7b10ff;
+    //    border-bottom:  3px solid #7b10ff;
+    text-align: center;
+    position: relative;
+
+    &::before{
+        content: "";
+     //    width: 2px;
+     //    height: 3px;
+     //    background-color: red;
+     //    border-bottom: 2px solid black;
+     // background-image: url(../img/pattern.png);
+     width: 220px;
+     height: 10px;
+     // display: block;
+     // color: red;
+     position: absolute;
+     top: 40px;
+     left: 565px;
+     right: 10px;
+     bottom: 10px;
+     // background: red;
+     border-bottom: 2px solid black;
+    
+    }
+    }
+
+    & .Statistics{
+     
+
+        &__one{
+          
+            &--part1{
+               width: 100%;
+               text-align: center;
+
+               & h1{
+                font-size: 3rem;
+                color: #1e283c;
+                padding: 2rem 0rem 0rem 0rem;
+
+              
+            }
+            & p{
+                font-size: 1.5rem;
+                color: #50668f;
+                padding: 2rem 0rem 8rem 0rem;
+            }
+            }
+          
+        }
+
+        & .pricing{
+            margin-top: 5rem;
+
+            &__part1{
+                width: 33%;
+                padding-left: 15rem;
+                float: left;
+                text-align: center;
+
+                & ul{
+                    list-style: none;
+                }
+
+                & h1{
+                    color: #1e283c;
+                    font-size: 3rem;
+                }
+                & p{
+                    font-size: 1.5rem;
+                    padding: 2rem;
+                }
+
+                & h2 span{
+                    font-size: 4rem;
+                }
+                & ul li{
+                    font-size: 1.5rem;
+                    padding: 1rem 0rem;
+                    border-bottom: 1px solid gray;
+
+                }
+                & button{
+                    width: 15rem;
+                    height: 4rem;
+                    margin-top: 2rem;
+                    cursor: pointer;
+                    border: none;
+                    font-size: 2rem;
+                     &:hover{
+                    background-color:#7b10ff ;
+                    border-radius: 3px;
+                    color: white;
+                     }
+                }
+            }
+            &__part2{
+                width: 33%;
+                padding-left: 15rem;
+                float: left;
+                text-align: center;
+
+                & ul{
+                    list-style: none;
+                }
+
+                & h1{
+                    color: #1e283c;
+                    font-size: 3rem;
+                }
+                & p{
+                    font-size: 1.5rem;
+                    padding: 2rem;
+                }
+
+                & h2 span{
+                    font-size: 4rem;
+                }
+                & ul li{
+                    font-size: 1.5rem;
+                    padding: 1rem 0rem;
+                    border-bottom: 1px solid gray;
+
+                }
+                & button{
+                    width: 15rem;
+                    height: 4rem;
+                    margin-top: 2rem;
+                    cursor: pointer;
+                    border: none;
+                    font-size: 2rem;
+                     &:hover{
+                    background-color:#7b10ff ;
+                    border-radius: 3px;
+                    color: white;
+                     }
+                }
+
+            }
+            &__part3{
+                width: 33%;
+                padding-left: 10rem;
+                float: left;
+                text-align: center;
+                
+
+                & ul{
+                    list-style: none;
+                }
+
+                & h1{
+                    color: #1e283c;
+                    font-size: 3rem;
+                }
+                & p{
+                    font-size: 1.5rem;
+                    padding: 2rem;
+                }
+
+                & h2 span{
+                    font-size: 4rem;
+                }
+                & ul li{
+                    font-size: 1.5rem;
+                    padding: 1rem 0rem;
+                    border-bottom: 1px solid gray;
+
+                }
+                & button{
+                    width: 15rem;
+                    height: 4rem;
+                    margin-top: 2rem;
+                    cursor: pointer;
+                    border: none;
+                    font-size: 2rem;
+                     &:hover{
+                    background-color:#7b10ff ;
+                    border-radius: 3px;
+                    color: white;
+                     }
+                }
+
+            }
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 40rem;
+    background-color: #7b10ff;
 }
