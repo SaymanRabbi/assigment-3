@@ -356,7 +356,7 @@ position: relative;
         }
         &__tow{
             width: 100%;
-            height: 40rem;
+            height: 60rem;
 
             &--part1{
                   width: 33%;
@@ -405,6 +405,37 @@ position: relative;
             &--part3{
                 width: 33%;
                   float: left;
+
+                  &-section1{
+                    height: 20rem;
+                    margin-bottom: 5rem;
+
+                    & h1{
+                        font-size: 3rem;
+                        color: #1e283c;
+                        padding: 2rem 0rem;
+                        
+                    }
+                    & p{
+                        font-size: 1.5rem;
+                        color: #50668f;
+                    }
+                }
+
+                &-section2{
+                  height: 20rem;
+
+                  & h1{
+                      font-size: 3rem;
+                      color: #1e283c;
+                      padding: 2rem 0rem;
+                      
+                  }
+                  & p{
+                      font-size: 1.5rem;
+                      color: #50668f;
+                  }
+                }
                 
             }
         }
