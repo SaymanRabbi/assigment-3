@@ -134,10 +134,6 @@ header {
   text-align: center;
 }
 
-.feture__one:hover {
-  border: 2px solid #7b10ff;
-}
-
 .feture__one img {
   margin-bottom: 3rem;
 }
@@ -160,10 +156,6 @@ header {
   padding: 5rem 2rem;
 }
 
-.feture__tow:hover {
-  border: 2px solid #7b10ff;
-}
-
 .feture__tow img {
   margin-bottom: 3rem;
 }
@@ -184,10 +176,6 @@ header {
   height: 40rem;
   text-align: center;
   padding: 5rem 2rem;
-}
-
-.feture__three:hover {
-  border: 2px solid #7b10ff;
 }
 
 .feture__three img {
@@ -598,7 +586,138 @@ header {
 
 footer {
   width: 100%;
-  height: 40rem;
+  height: 60rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7b10ff), to(#974fff));
+  background-image: linear-gradient(#7b10ff 0%, #974fff 100%);
+}
+
+footer .footer__all {
+  padding: 10rem 10rem 0rem 10rem;
+  height: 60rem;
+}
+
+footer .footer__all--one {
+  float: left;
+  width: 30%;
+}
+
+footer .footer__all--one h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+
+footer .footer__all--one p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+footer .footer__all--tow {
+  float: left;
+  width: 15%;
+  padding-left: 2rem;
+}
+
+footer .footer__all--tow h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+
+footer .footer__all--tow h2 {
+  padding-bottom: 1.5rem;
+}
+
+footer .footer__all--tow h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footer__all--three {
+  float: left;
+  width: 15%;
+}
+
+footer .footer__all--three h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+
+footer .footer__all--three h2 {
+  padding-bottom: 1.5rem;
+}
+
+footer .footer__all--three h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footer__all--four {
+  float: left;
+  width: 20%;
+}
+
+footer .footer__all--four h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+
+footer .footer__all--four h2 {
+  padding-bottom: 1.5rem;
+}
+
+footer .footer__all--four h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footer__all--five {
+  float: left;
+  width: 20%;
+}
+
+footer .footer__all--five h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+
+footer .footer__all--five p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+footer .footer__all--five input {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+}
+
+footer .footer__all--five button {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font: 2rem;
+}
+
+footer .footer__all--five button:hover {
   background-color: #7b10ff;
+  color: white;
+}
+
+.middle {
+  text-align: center;
+}
+
+.middle h1 {
+  color: black;
+  text-transform: uppercase;
+  margin-top: 40rem;
 }
 /*# sourceMappingURL=style.css.map */
