@@ -102,7 +102,7 @@ form {
   width: 100%;
   height: 75vh;
   padding: 5rem 20rem;
-  background-color: blanchedalmond;
+  background-color: #B2B6BA;
 }
 
 form input {
@@ -285,4 +285,3 @@ footer .footer__all--five button:hover {
   text-transform: uppercase;
   margin-top: 40rem;
 }
-/*# sourceMappingURL=style.css.map */
