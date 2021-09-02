@@ -91,93 +91,28 @@ header .hero__tow h1 a {
   border-bottom: 3px solid #5fbafc;
 }
 
-main {
+.main {
   width: 100%;
-  margin-top: 20rem;
-  height: 80rem;
+  height: 140vh;
 }
 
-main .feture {
-  padding: 0rem 10rem;
+.main__part--one {
+  padding: 10rem;
 }
 
-main .feture__one {
-  width: 40%;
-  float: left;
-  padding: 5rem;
-  text-align: justify;
-}
-
-main .feture__one h1 {
-  font-size: 3rem;
-  color: #1E283C;
-}
-
-main .feture__one p {
-  font-size: 1.5rem;
-  line-height: 3rem;
-  width: 100%;
-}
-
-main .feture__one button {
-  margin-top: 3rem;
-  width: 15rem;
-  height: 4rem;
-  border: none;
-  text-transform: uppercase;
-}
-
-main .feture__one button:hover {
-  background-color: #7b10ff;
-  color: white;
-  border-radius: 3px;
-}
-
-main .feture__tow {
-  width: 60%;
-  float: left;
-  padding-left: 10rem;
-  padding-top: 10rem;
-  position: relative;
-}
-
-main .feture__tow--one {
-  width: 50%;
-  border-radius: 2px;
-  left: 8rem;
-  top: 10rem;
-  position: absolute;
-}
-
-main .feture__tow--tow {
-  width: 50%;
-  border-radius: 2px;
-  position: absolute;
-  right: -2rem;
-  top: 14rem;
-}
-
-main .feture__tow--three {
-  width: 50%;
-  border-radius: 2px;
-  position: absolute;
-  left: 13rem;
-  top: 25rem;
-}
-
-.section__part--one .sayman {
-  color: black;
+.main__part--one-one {
   text-align: center;
+  margin: 0 auto;
+}
+
+.main__part--one-one h1 {
   font-size: 3rem;
-  margin-bottom: 3rem;
-  text-transform: uppercase;
-  color: #7b10ff;
   position: relative;
 }
 
-.section__part--one .sayman::before {
+.main__part--one-one h1::before {
   content: "";
-  width: 20rem;
+  width: 13rem;
   height: 5px;
   background-color: red;
   top: 2.2rem;
@@ -186,14 +121,98 @@ main .feture__tow--three {
   display: inline-block;
 }
 
-.section__part--one .sayman::after {
+.main__part--one-one h1::after {
   content: "";
-  width: 20rem;
+  width: 12rem;
   height: 5px;
   background-color: red;
   top: 2.2rem;
   position: absolute;
   display: inline-block;
+}
+
+.main__part--one-tow {
+  width: 100%;
+  padding: 3rem;
+  background-color: #B2B6BA;
+  overflow: hidden;
+  margin-top: 10rem;
+}
+
+.main__part--one-tow--section1 .div1 {
+  width: 33%;
+  float: left;
+}
+
+.main__part--one-tow--section1 .div1 img {
+  width: 90%;
+}
+
+.main__part--one-tow--section1 .div2 {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.main__part--one-tow--section1 .div2 h1 {
+  color: #551A8B;
+  font-size: 3rem;
+}
+
+.main__part--one-tow--section1 .div2 P {
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+.main__part--one-tow--section1 .div3 {
+  width: 33%;
+  float: left;
+}
+
+.main__part--one-tow--section1 .div3 img {
+  width: 96%;
+}
+
+.main__part--one-tow--section2 .div1 {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.main__part--one-tow--section2 .div1 h1 {
+  color: #551A8B;
+  font-size: 3rem;
+}
+
+.main__part--one-tow--section2 .div1 P {
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+.main__part--one-tow--section2 .div2 {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.main__part--one-tow--section2 .div2 img {
+  width: 90%;
+}
+
+.main__part--one-tow--section2 .div3 {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.main__part--one-tow--section2 .div3 h1 {
+  color: #551A8B;
+  font-size: 3rem;
+}
+
+.main__part--one-tow--section2 .div3 P {
+  line-height: 3rem;
+  font-size: 1.5rem;
 }
 
 footer {
